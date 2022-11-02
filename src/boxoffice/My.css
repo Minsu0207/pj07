@@ -9,10 +9,6 @@
 
 * {
   font-family: "GangwonEdu_OTFBoldA";
-  /* font-family: 'Hi Melody', cursive; */
-  /* font-family: 'Nanum Brush Script', cursive; */
-  /* font-family: 'Noto Serif KR', serif; */
-  /* font-family: 'Single Day', cursive; */
 }
 
 h1 {
@@ -25,7 +21,6 @@ h1 {
 h2,h3 {
   margin: 10px;
   color: rgb(0, 0, 0);
-  /* background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%); */
   text-align: right;
 }
 
@@ -41,36 +36,31 @@ align-content: space-between;
 
 .mvinfo1{
   align-content: space-between;
+  
 }
 
 .mvinfo2{
   align-content: space-between;
 }
 
-.ul1 {
-  margin: 5px;
-  padding: 7px;
-}
+
 
 li {
   margin: 5px;
+  width: 50%;
   border: 3px solid #f0cdff;
   padding: 5px;
   font-size: 20px;
   list-style: none;
-  /* background-color: aliceblue; */
-}
-.li1 {
-  font-size: 20px;
-  border: 3px solid #f0cdff;
-  margin: 5px;
-  padding: 15px;
-  list-style: none;
+  background-color: aliceblue;
   text-align: center;
-  text-decoration: none;
-  text-decoration-color: hsl(231, 60%, 56%);
+  justify-content: center;
 }
-
+ul
+{
+  text-align: center;
+  justify-content: center;
+}
 .Mbtn{
   flex-direction: column;
   width: 20%;
@@ -92,7 +82,7 @@ li {
 }
 
 button {
-  width: 20%;
+  width: 24%;
   display: inline-block;
   margin: 10px;
   position: relative;
@@ -118,4 +108,5 @@ button:hover {
 
 body {
   text-align: center;
+  justify-content: center;
 }
